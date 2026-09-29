@@ -1,0 +1,307 @@
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 768px) {
+
+    .welcome-page {
+        padding: 18px;
+    }
+
+
+    .welcome-card {
+        padding: 40px 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .gift-page {
+        padding: 25px 16px;
+    }
+
+
+    .gift-title {
+        margin-bottom: 35px;
+    }
+
+
+    .letter-page {
+        padding: 50px 16px;
+    }
+
+
+    .letter-card {
+        padding: 30px 22px;
+    }
+
+
+    .photo-gallery {
+        gap: 10px;
+    }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 480px) {
+
+    /* ---------- Welcome ---------- */
+
+    .welcome-card {
+        padding: 35px 20px;
+
+        border-radius: 22px;
+    }
+
+
+    .heart-icon {
+        font-size: 42px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .small-text {
+        font-size: 13px;
+    }
+
+
+    h1 {
+        font-size: 32px;
+    }
+
+
+    .description {
+        font-size: 14px;
+
+        line-height: 1.9;
+
+        margin-bottom: 26px;
+    }
+
+
+    .open-button {
+        min-height: 54px;
+
+        border-radius: 16px;
+    }
+
+
+    /* ---------- Gift ---------- */
+
+    .gift-page {
+        padding: 20px 14px;
+    }
+
+
+    .gift-container {
+        width: 100%;
+    }
+
+
+    .gift-small-text {
+        font-size: 13px;
+    }
+
+
+    .gift-title {
+        font-size: 30px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .gift-box-wrapper {
+        transform: scale(0.88);
+    }
+
+
+    .gift-hint {
+        margin-top: 5px;
+
+        font-size: 13px;
+    }
+
+
+    .gift-message {
+        margin-top: 25px;
+
+        padding: 25px 18px;
+
+        border-radius: 20px;
+    }
+
+
+    .gift-message h2 {
+        font-size: 21px;
+    }
+
+
+    .gift-message p {
+        font-size: 13px;
+
+        line-height: 1.9;
+    }
+
+
+    /* ---------- Letter ---------- */
+
+    .letter-page {
+        padding: 40px 14px 60px;
+    }
+
+
+    .letter-header {
+        margin-bottom: 30px;
+    }
+
+
+    .letter-heart {
+        font-size: 40px;
+    }
+
+
+    .letter-small-text {
+        font-size: 13px;
+    }
+
+
+    .letter-header h1 {
+        font-size: 38px;
+    }
+
+
+    .letter-card {
+        padding: 25px 18px;
+
+        border-radius: 21px;
+    }
+
+
+    .letter-card p {
+        font-size: 14px;
+
+        line-height: 2;
+
+        margin-bottom: 18px;
+    }
+
+
+    .letter-ending {
+        font-size: 18px !important;
+
+        margin-top: 25px;
+    }
+
+
+    /* ---------- Photos ---------- */
+
+    .photo-section {
+        margin-top: 60px;
+    }
+
+
+    .photo-small-text {
+        font-size: 13px;
+    }
+
+
+    .photo-section h2 {
+        font-size: 23px;
+
+        line-height: 1.5;
+
+        margin-bottom: 22px;
+    }
+
+
+    .photo-gallery {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 8px;
+    }
+
+
+    .photo-card {
+        border-radius: 15px;
+    }
+
+
+    /* ---------- Final ---------- */
+
+    .final-message {
+        margin-top: 65px;
+
+        padding: 35px 15px;
+    }
+
+
+    .final-heart {
+        font-size: 38px;
+    }
+
+
+    .final-message h2 {
+        font-size: 24px;
+    }
+
+
+    .final-message p {
+        font-size: 14px;
+
+        line-height: 1.9;
+    }
+
+
+    .final-symbol {
+        font-size: 28px;
+    }
+
+}
+
+
+/* ================================
+   VERY SMALL PHONES
+================================ */
+
+@media (max-width: 360px) {
+
+    .welcome-card {
+        padding: 30px 16px;
+    }
+
+
+    .welcome-card h1 {
+        font-size: 29px;
+    }
+
+
+    .gift-title {
+        font-size: 27px;
+    }
+
+
+    .gift-box-wrapper {
+        transform: scale(0.78);
+    }
+
+
+    .letter-header h1 {
+        font-size: 34px;
+    }
+
+
+    .letter-card {
+        padding: 22px 15px;
+    }
+
+
+    .letter-card p {
+        font-size: 13px;
+    }
+
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="نامه‌ای برای یک آدم خاص ❤️"
+    >
+
+    <title>یه نامه برای تو ❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body class="letter-body">
+
+    <main class="letter-page">
+
+        <div class="letter-background"></div>
+
+
+        <section class="letter-container">
+
+            <!-- ================================
+                 HEADER
+            ================================= -->
+
+            <div class="letter-header">
+
+                <div class="letter-heart">
+                    ❤️
+                </div>
+
+                <p class="letter-small-text">
+                    چند تا حرف که شاید گفتنشون سخت بود...
+                </p>
+
+                <h1>
+                    برای تو
+                </h1>
+
+            </div>
+
+
+            <!-- ================================
+                 LETTER
+            ================================= -->
+
+            <article class="letter-card">
+
+                <p>
+                    نمی‌دونم از کجا شروع کنم...
+                </p>
+
+                <p>
+                    شاید فقط بخوام بگم که بودن تو
+                    توی زندگی من یکی از قشنگ‌ترین اتفاق‌هاست.
+                </p>
+
+                <p>
+                    حتی وقتی فاصله بینمون زیاده،
+                    باز هم بعضی آدم‌ها جوری نزدیک می‌مونن
+                    که انگار هیچ فاصله‌ای وجود نداره.
+                </p>
+
+                <p>
+                    این هدیه شاید کوچیک باشه،
+                    ولی با کلی حس و فکر ساخته شده.
+                </p>
+
+                <p class="letter-ending">
+                    تولدت مبارک ❤️
+                </p>
+
+            </article>
+
+
+            <!-- ================================
+                 PHOTOS
+            ================================= -->
+
+            <section class="photo-section">
+
+                <p class="photo-small-text">
+                    چند تا خاطره از ما
+                </p>
+
+                <h2>
+                    لحظه‌هایی که دوستشون دارم 📸
+                </h2>
+
+
+                <div class="photo-gallery">
+
+                    <div class="photo-card">
+
+                        <img
+                            src="assets/images/couple/photo-1.jpg"
+                            alt="خاطره اول"
+                        >
+
+                    </div>
+
+
+                    <div class="photo-card">
+
+                        <img
+                            src="assets/images/couple/photo-2.jpg"
+                            alt="خاطره دوم"
+                        >
+
+                    </div>
+					
+					
+					<div class="photo-card">
+
+                        <img
+                            src="assets/images/couple/photo-3.jpg"
+                            alt="خاطره سوم"
+                        >
+
+                    </div>
+					
+					
+					<div class="photo-card">
+
+                        <img
+                            src="assets/images/couple/photo-4.jpg"
+                            alt="خاطره چهارم"
+                        >
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================================
+                 FINAL MESSAGE
+            ================================= -->
+
+            <section class="final-message">
+
+                <div class="final-heart">
+                    ❤️
+                </div>
+
+                <h2>
+                    و اما آخرش...
+                </h2>
+
+                <p>
+                    امیدوارم هرچقدر این فاصله زیاده،
+                    چیزی از قشنگی بینمون کم نکنه.
+                </p>
+
+                <p>
+                    تولدت مبارک،
+                    عزیزترین آدم من.
+                </p>
+
+                <div class="final-symbol">
+                    ♡
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================
+         MUSIC
+    ================================= -->
+
+    <script src="js/music.js"></script>
+
+    <script>
+
+        const savedMusicTime =
+            sessionStorage.getItem("musicTime");
+
+
+        if (savedMusicTime !== null) {
+
+            birthdayMusic.addEventListener(
+                "loadedmetadata",
+                () => {
+
+                    birthdayMusic.currentTime =
+                        Number(savedMusicTime);
+
+
+                    birthdayMusic
+                        .play()
+                        .catch(() => {
+
+                            console.log(
+                                "Music resume was blocked by browser."
+                            );
+
+                        });
+
+                },
+                {
+                    once: true
+                }
+            );
+
+        }
+
+    </script>
+
+
+</body>
+
+</html>
